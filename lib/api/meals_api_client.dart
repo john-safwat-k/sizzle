@@ -13,6 +13,8 @@ abstract class MealsApiClient {
 
 
   @GET("/categories.php")
+
+
   Future<CategoriesResponse> getCategories();
 
 }
